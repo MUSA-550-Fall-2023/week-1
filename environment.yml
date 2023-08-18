@@ -4,6 +4,8 @@ channels:
 
 dependencies:
   - geopandas=0.13.2
+  - jupyterlab=3.6.5
+  - python=3.10.12
 # - altair=5.0.1
 # - beautifulsoup4=4.12.2
 # - black=23.7.0
