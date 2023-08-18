@@ -13,7 +13,7 @@ RUN mamba env create -p "${CONDA_DIR}/envs/${env_name}" -f /tmp/environment.yml 
     mamba clean --all -f -y
 
 # create Python kernel and link it to jupyter
-RUN "${CONDA_DIR}/envs/${env_name}/bin/python" -m ipykernel install --user --name="${env_name}" && \
+RUN "${CONDA_DIR}/envs/${env_name}/bin/python" -m ipykernel install --user && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
 
