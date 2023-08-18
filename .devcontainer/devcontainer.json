@@ -1,5 +1,5 @@
 {
-	"name": "Micromamba (Python 3)",
+	"name": "Jupyter Base Notebook (Python 3)",
 	"build": {
 		"context": "..",
 		"dockerfile": "Dockerfile"
@@ -14,7 +14,4 @@
 		"ms-python.vscode-pylance"
 	],
 
-	"features": {
-    "ghcr.io/devcontainers/features/python:1": { "installJupyterlab": true}
-}
 }
