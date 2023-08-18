@@ -1,0 +1,16 @@
+{
+	"name": "Micromamba (Python 3)",
+	"build": {
+		"context": "..",
+		"dockerfile": "Dockerfile"
+	},
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"python.defaultInterpreterPath": "/opt/conda/bin/python"
+	},
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance"
+	]
+}
