@@ -1,9 +1,7 @@
 FROM jupyter/base-notebook:lab-3.6.2
 
-# name your environment and choose the python version
+# name your environment
 ARG env_name=musa-550-fall-2023
-ARG py_ver=3.10.12
-
 
 # alternatively, you can comment out the lines above and uncomment those below
 # if you'd prefer to use a YAML file present in the docker build context
