@@ -12,5 +12,9 @@
 	"extensions": [
 		"ms-python.python",
 		"ms-python.vscode-pylance"
-	]
+	],
+
+	"features": {
+    "ghcr.io/devcontainers/features/python:1": { "installJupyterlab": true}
+}
 }
